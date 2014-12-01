@@ -103,7 +103,7 @@ jhipsterApp
                 })
                 .otherwise({
                     templateUrl: 'views/login.html',
-                    controller: 'MainController',
+                    controller: 'LoginController',
                     access: {
                         authorizedRoles: [USER_ROLES.all]
                     }
